@@ -3,17 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>個人網頁設計</title>
+    <style>
+        @import url("css/index.css");
+    </style> 
 </head>
 <body>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam non deleniti incidunt repudiandae! Aspernatur, earum accusantium, non vero repellat nemo placeat culpa optio possimus voluptates numquam vel officia esse quod.
-    git init
-    git add .
-    git commit -m "first commit"
-    git branch -M main
-    git remote add origin https://github.com/mannerxLi/git_lesson.git
-    git push -u origin main
-    git config --global user.email "vian40722@gmail.com"
-    git config --global user.name "mannerxLi"
+    <header>
+        <h1>我的個人網站</h1>
+    </header>
+  
+    <nav>
+        <a href="#1">關於我</a>
+        <a href="#2">專業技能</a>
+        <a href="#3">比賽經歷</a>
+        <a href="#4">社團活動</a>
+    </nav>
+
+    <article>
+        <a name="1"></a>
+        <section>
+            <h2>關於我</h2>
+            <div>
+                <img src="image/myphoto.jpg" style="width: 300px;"/>
+            </div>
+            
+            <div class="text">
+                <p>我是李怡萱</p>
+                <p>興趣是喜歡運動、唱歌、玩遊戲</p>
+                <p>個人特質是擇善固執有毅⼒、團結合作、邏輯思考</p>
+                <p>
+                    聯絡資訊:
+                    <a href="mailto:vian40722@gmail.com">vian40722@gmail.com</a>
+                </p>
+            </div>
+        </section>
+    </article>
+
+    <section>
+        <a name="2"></a>
+        <h2>專業技能</h2>
+        <div class="skills-container">
+            <div class="root-div">           
+                <div class="skill-bar-container">
+                    <div class="skill-bar python-skill">
+                        <div class="content">
+                            <h2>Python</h2>
+                            <p>85%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="root-div">           
+                <div class="skill-bar-container">
+                    <div class="skill-bar java-skill">
+                        <div class="content">
+                            <h2>Java</h2>
+                            <p>75%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="root-div">           
+                <div class="skill-bar-container">
+                    <div class="skill-bar html-skill">
+                        <div class="content">
+                            <h2>HTML</h2>
+                            <p>80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="root-div">           
+                <div class="skill-bar-container">
+                    <div class="skill-bar css-skill">
+                        <div class="content">
+                            <h2>CSS</h2>
+                            <p>80%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <a name="3"></a>
+        <h2>比賽經驗</h2>
+        <div class="root-box">
+            <p>解決未來問題能力競賽</p>
+            <div class="div-box1">
+              <img style="width: 100%;" src="image/比賽1.jpg" >
+            </div>
+            <div class="div-box2">
+              <img style="width: 100%;" src="image/比賽2.jpg" >
+            </div>
+            <div class="div-box3">
+              <img style="width: 100%;" src="image/比賽3.jpg" >
+            </div>
+            <div class="div-box4">
+              <img style="width: 100%;" src="image/獎狀.jpg" >
+            </div>
+          </div>
+    </section>
+
+    <section>
+        <a name="4"></a>
+        <h2>社團活動</h2>
+        <div class="block01">
+            <p>高中合唱團</p>
+            <img src="image/club01.jpg">    
+            <img src="image/club02.jpg">    
+        </div>
+    </section>
+
+    <footer>
+        Copyrgiht @ 2024 All rights reserved
+    </footer>
 </body>
 </html>
